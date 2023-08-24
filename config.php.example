@@ -1,0 +1,9 @@
+<?php
+$apiKey = '';
+$password = '';
+$domain = 'https://myshop-bpq88.myinsales.ru';
+
+$headers = array(
+    'Content-Type: application/json',
+    'Authorization: Basic ' . base64_encode("$apiKey:$password")
+);
